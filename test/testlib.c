@@ -2,5 +2,5 @@
 
 void testlib(void)
 {
-	puts("This is a print from the shared library.\n");
+	puts("This is a print from the shared library.");
 }

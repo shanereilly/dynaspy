@@ -34,8 +34,17 @@ filename opened and checked to see if it is a dynamic library by
 examining the file header.
 .SH EXAMPLES
 .TP
-\f[B]dynaspy\f[R] /bin/ls
+\f[B]dynaspy /bin/ls\f[R]
 Displays all shared libraries used by the \f[B]ls\f[R] program.
+Also displays the output of the \f[B]ls\f[R] program.
+.TP
+\f[B]dynaspy /bin/ls 1> /dev/null\f[R]
+Displays all shared libraries used by the \f[B]ls\f[R] program.
+Omits the text written by \f[B]ls\f[R] to standard out.
+.TP
+\f[B]dynaspy /bin/cat testfile.txt\f[R]
+Displays all shared libraries used by the \f[B]cat\f[R] program as it
+opens \f[B]testfile.txt\f[R].
 .SH EXIT VALUES
 .TP
 \f[B]0\f[R]
