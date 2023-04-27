@@ -11,7 +11,7 @@ make
 
 To compile the example test file, run:
 
-````
+```
 make test
 ```
 
@@ -27,6 +27,7 @@ Dynamic library opened: /lib/x86_64-linux-gnu/libc.so.6
 For information on how `dynaspy` works, please refer to the man page.
 
 To view man page, run:
+
 ```
 man ./dynaspy.1
 ```
